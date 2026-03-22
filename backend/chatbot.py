@@ -5,14 +5,14 @@ class MockChatbot:
     def __init__(self):
         self.conversation_history = []
         self.responses = {
-            "hello": ["Hi there! How can I help you?", "Hello! Nice to meet you.", "Hey! What's up?"],
-            "hi": ["Hi! How are you?", "Hello! What can I do for you?", "Hey there!"],
-            "how are you": ["I'm doing great, thanks for asking!", "I'm fantastic! How about you?", "I'm here and ready to help!"],
-            "what is your name": ["I'm MockBot, your conversational AI!", "You can call me MockBot.", "I'm MockBot, nice to meet you!"],
-            "bye": ["Goodbye! Have a great day!", "See you later!", "Bye! Come back soon!"],
-            "help": ["I'm here to chat with you! You can ask me anything.", "I can chat about pretty much anything. What's on your mind?", "Feel free to ask me questions or just chat!"],
-            "thank you": ["You're welcome!", "Happy to help!", "Anytime!"],
-            "thanks": ["You're welcome!", "My pleasure!", "Glad I could help!"],
+            "hello": ["Hi there! How can I help you?","Hello! Nice to meet you.","Hey! What's up?"],
+            "hi": ["Hi! How are you?","Hello! What can I do for you?","Hey there!"],
+            "how are you": ["I'm doing great, thanks for asking!","I'm fantastic! How about you?","I'm here and ready to help!"],
+            "what is your name": ["I'm MockBot, your conversational AI!","You can call me MockBot.","I'm MockBot, nice to meet you!"],
+            "bye": ["Goodbye! Have a great day!","See you later!","Bye! Come back soon!"],
+            "help": ["I'm here to chat with you! You can ask me anything.","I can chat about pretty much anything. What's on your mind?","Feel free to ask me questions or just chat!"],
+            "thank you": ["You're welcome!","Happy to help!","Anytime!"],
+            "thanks": ["You're welcome!","My pleasure!","Glad I could help!"],
         }
         
         self.default_responses = [
@@ -75,8 +75,4 @@ class MockChatbot:
     def clear_history(self):
         """Clear conversation history"""
         self.conversation_history = []
-self.responses = {
-    "hello": ["Hi there!", "Hello!"],
-    "your_keyword": ["Response 1", "Response 2"],
-    # Add more keywords and responses
-}
+        
